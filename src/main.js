@@ -20,8 +20,9 @@ let pointerScreen = new THREE.Vector2(window.innerWidth / 2, window.innerHeight 
 // PROJECT DATA
 // ─────────────────────────────────────────────────
 const projects = [
-  { title: 'Simple Web Pages', tag: 'HTML / CSS', year: '2024', image: '/image.jpg', url: '#' },
-  { title: 'AI Automation Workflow', tag: 'AI / Automation', year: '2025', image: '/image2.jpg', url: '#' },
+  { title: 'Inkwell', tag: 'Developer Tools', year: '2026', image: '/image.jpg', url: 'https://github.com/PiduguShivaram/inkwell' },
+  { title: 'TerraTask', tag: 'Earth Observation', year: '2026', image: '/image2.jpg', url: 'https://github.com/PiduguShivaram/terrtask' },
+  { title: 'Before You Pay', tag: 'Document Intelligence', year: '2026', image: '/image3.jpg', url: 'https://github.com/PiduguShivaram/BEFORE_YOU_PAY_SYS' },
 ]
 
 const app = document.querySelector('#app')
@@ -46,7 +47,7 @@ app.innerHTML = `
       <p class="hero__eyebrow">Computer Science Student</p>
       <h1 id="hero-title" class="hero__title">Pidugu Shivaram, building the web.</h1>
       <p class="hero__subtitle">
-        Motivated B.Tech CSE student with a strong foundation in C, HTML, CSS, and SQL. Eager to contribute to web development and software projects while growing fast.
+        B.Tech Computer Science Engineering student building developer tools, evidence-grounded document analysis, and geospatial applications.
       </p>
     </div>
   </section>
@@ -56,7 +57,7 @@ app.innerHTML = `
     <div class="about__content">
       <h3 class="about__headline">Motivated problem-solver seeking to apply technical skills in real-world projects.</h3>
       <p class="about__body">
-        I'm a 2nd-year B.Tech Computer Science Engineering student at Ku College of Engineering and Technology, Peddapalli, Telangana. I have a strong foundation in C programming, web technologies (HTML & CSS), and SQL databases. I'm eager to grow, learn fast, and deliver meaningful contributions in web development or software-related roles.
+        I'm a B.Tech Computer Science Engineering student at Kakatiya University College of Engineering and Technology. I build and document software projects spanning developer tooling, document analysis, and Earth observation.
       </p>
     </div>
   </section>
@@ -76,7 +77,7 @@ app.innerHTML = `
     <ul class="experience__list">
       <li class="experience__item">
         <span class="experience__label">B.Tech in Computer Science Engineering</span>
-        <span class="experience__meta">Ku College of Engineering & Technology · Currently 2nd Year · 2023–2027</span>
+        <span class="experience__meta">Kakatiya University College of Engineering and Technology</span>
       </li>
     </ul>
   </section>
@@ -84,7 +85,7 @@ app.innerHTML = `
   <section class="projects" id="projects" aria-labelledby="projects-title">
     <header class="projects__header">
       <h2 id="projects-title" class="section-label">Selected projects</h2>
-      <p class="projects__subtitle">A selection of recent work spanning AI products, creative engineering, and full-stack platforms.</p>
+      <p class="projects__subtitle">Selected projects: architecture tooling, geospatial intelligence, and document analysis.</p>
     </header>
     <div class="projects__grid">
       ${projects.map(p => `
@@ -105,12 +106,12 @@ app.innerHTML = `
       <div class="contact__copy">
         <h2 id="contact-title" class="section-label">Contact</h2>
         <p class="contact__headline">Let's collaborate on something meaningful.</p>
-        <p class="contact__body">Whether you're exploring an idea, looking for an internship opportunity, or curious about my work — feel free to reach out. Based in Peddapalli, Telangana · +91 9515546704</p>
+        <p class="contact__body">Whether you're exploring an idea, looking for an internship opportunity, or curious about my work — feel free to reach out. Open to technical conversations, project collaboration, and internship opportunities.</p>
       </div>
       <div class="contact__actions">
         <a class="contact__email" href="mailto:pidugushivaram@gmail.com">pidugushivaram@gmail.com</a>
         <div class="contact__buttons">
-          <a href="/resume.pdf" download class="button button--primary">Download Resume</a>
+          <a href="https://github.com/PiduguShivaram" class="button button--primary">GitHub Profile</a>
           <div class="contact__links">
             <a href="https://www.linkedin.com/in/shivarampidugu" target="_blank" rel="noreferrer">LinkedIn</a>
           </div>
