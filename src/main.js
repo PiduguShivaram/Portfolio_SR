@@ -22,7 +22,7 @@ let pointerScreen = new THREE.Vector2(window.innerWidth / 2, window.innerHeight 
 const projects = [
   { title: 'Inkwell', tag: 'Developer Tools', year: '2026', image: '/image.jpg', url: 'https://github.com/PiduguShivaram/inkwell' },
   { title: 'TerraTask', tag: 'Earth Observation', year: '2026', image: '/image2.jpg', url: 'https://github.com/PiduguShivaram/terrtask' },
-  { title: 'Before You Pay', tag: 'Document Intelligence', year: '2026', image: '/image3.jpg', url: 'https://github.com/PiduguShivaram/BEFORE_YOU_PAY_SYS' },
+  { title: 'Before You Pay', tag: 'Document Intelligence', year: '2026', image: '/image.jpg', url: 'https://github.com/PiduguShivaram/BEFORE_YOU_PAY_SYS' },
 ]
 
 const app = document.querySelector('#app')
